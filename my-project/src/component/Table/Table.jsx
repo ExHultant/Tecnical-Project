@@ -10,7 +10,6 @@ function PokemonTable({ pokemonData, currentPage, pageSize, onSelectPokemon }) {
       showConfirmButton: false,
       timer: 3500,
     }).then(() => {
-      // Llama a onSelectPokemon(pokemon) dentro de la función aquí
       onSelectPokemon(pokemon);
     });
   };
